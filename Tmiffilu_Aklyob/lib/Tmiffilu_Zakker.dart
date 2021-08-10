@@ -21,19 +21,29 @@ class TmiFont{
   String scriptName;
   File fontFile;
   List<FontCateg> categories;
-  TmiFont(String fontName, String fileName, String langname, String scriptName, File fontFile, List<FontCateg> categories){
+  TmiFont(String fontName, String fileName, String langname, String scriptName, File fontFile){
     this.fontName = fontName;
     this.fileName = fileName;
     this.langname = langname;
     this.scriptName = scriptName;
     this.fontFile = fontFile;
-    this.categories = categories;
+  }
+  void addCateg(FontCateg categ){
+    categories.add(categ);
   }
 }
 class FontCateg{
   String categName;
   String dirName;
   List<TmiGlyph> glyphs;
+  FontCateg(String categName, String dirName){
+    this.categName = categName;
+    this.dirName = dirName;
+    this.glyphs = List<TmiGlyph>();
+  }
+  void addGlyph(TmiGlyph glyph){
+    glyphs.add(glyph);
+  }
 }
 class TmiGlyph{
 }
