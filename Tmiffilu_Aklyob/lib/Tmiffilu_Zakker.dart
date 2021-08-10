@@ -27,6 +27,7 @@ class TmiFont{
     this.langname = langname;
     this.scriptName = scriptName;
     this.fontFile = fontFile;
+    this.categories = List<FontCateg>();
   }
   void addCateg(FontCateg categ){
     categories.add(categ);
