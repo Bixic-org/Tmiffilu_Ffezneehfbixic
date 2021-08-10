@@ -1,6 +1,8 @@
+import "package:Tmiffilu_Zakker/Tmiffilu_Zakker.dart";
+
 class Tmiffilu{
   Tmiffilu(String str){}
-  void toSVG(){}
+  TmiSVG toSVG(){}
   bool isEmpty(){
     return true;
   }
@@ -11,7 +13,7 @@ class Tmiffilu{
 class Tmiffilu_Aku extends Tmiffilu{
   Tmiffilu_Aku(String str){}
   @Override
-  void toSVG(){}
+  TmiSVG toSVG(){}
   @Override
   bool isEmpty(){
     return false;
@@ -26,7 +28,7 @@ class Luxore extends Tmiffilu{
   Luxore(String str){
   }
   @Override
-  void toSVG(){}
+  TmiSVG toSVG(){}
   @Override
   bool isEmpty(){
     return false;
@@ -38,12 +40,18 @@ class Luxore extends Tmiffilu{
 }
 class Tmiffilu_Luux{
   List<Tmiffilu> _tmiffilu;
+  int length;
   Tmiffilu_Akeril(String init){
     List<String> eril;
     this._tmiffilu = eril.map((String str)=>Tmiffilu(str)).toList();
+    this.length = this._tmiffilu.length;
   }
   Tmiffilu_Akeril.withList(List<String> akl){
     this._tmiffilu = akl.map((String str)=>Tmiffilu(str)).toList();
+    this.length = this._tmiffilu.length;
+  }
+  void addTmiffilu(Tmiffilu tmi){
+    this._tmiffilu.add(tmi);
   }
 }
 class Tmiffilu_Akeril{
