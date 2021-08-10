@@ -8,12 +8,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "barcode",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/barcode-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "collection",
       "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/collection-1.15.0",
       "packageUri": "lib/",
@@ -26,44 +20,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "image",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/image-3.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "meta",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/meta-1.7.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "path",
       "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/path-1.8.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_parsing",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/path_parsing-0.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "pdf",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/pdf-3.4.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "petitparser",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/petitparser-4.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "qr",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/qr-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -74,25 +32,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "vector_math",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/vector_math-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "xml",
-      "rootUri": "file:///C:/Users/takuy/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/xml-5.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "nirbaaFfeznix",
+      "name": "Tmiffilu_Aklyob",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     }
   ],
-  "generated": "2021-08-08T19:29:33.741286Z",
+  "generated": "2021-08-09T07:24:15.993002Z",
   "generator": "pub",
   "generatorVersion": "2.12.0"
 }
